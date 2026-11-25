@@ -146,3 +146,6 @@ window.addEventListener('keydown', (e) => {
 
 window.addEventListener('resize', resize);
 resize();
+
+// Debug/test handle: lets a real browser session drive the game and read state.
+window.__dragons = world;
