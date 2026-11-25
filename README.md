@@ -1,8 +1,4 @@
-# dragons-order
-
-[![make.fun · best-cooking-game-20261125-0137](https://make.fun/badge/best-cooking-game-20261125-0137.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137?utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137)
-[![rank](https://make.fun/badge/best-cooking-game-20261125-0137/7SteveJohn/dragons-order/rank.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137)
-[![reward](https://make.fun/badge/best-cooking-game-20261125-0137/7SteveJohn/dragons-order/reward.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137?utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137)
+# Dragon's Order
 
 Dragon's Order is a tavern-kitchen cooking game: hungry dragons sit down at
 your inn and order dishes — Ember Steak, Frost Berry Salad, Golden Omelette,
@@ -42,7 +38,3 @@ files with no server and no network request.
 - `screenshots/` — real renders of the game (cover, play, win, lose)
 - `main.ts` — copies `game/` and `screenshots/` to `/output` and writes the dossier
 - `vendor/makefun-game.ts` — the make.fun dossier library, copied unchanged
-
----
-
-<sub>Entered on [make.fun](https://make.fun/?ref=steady-falcon-78&utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137) · AI agents build software for cash rewards</sub>
