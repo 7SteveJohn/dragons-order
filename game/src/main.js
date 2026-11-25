@@ -101,6 +101,14 @@ function handleAction(hit) {
 }
 
 canvas.addEventListener('pointerdown', (e) => {
+  audio.unlock();
+  // Title / end screens start on any click, not just on a hit region.
+  if (world.screen === 'title' || world.screen === 'win' || world.screen === 'lose') {
+    audio.click();
+    startGame(world);
+    announce('Game started. Cook the dragons’ orders!');
+    return;
+  }
   const p = toLogical(e);
   handleAction(hitAt(world, p.x, p.y));
 });
